@@ -1,0 +1,30 @@
+
+
+The software workflow 
+
+
+	Audio software that can read/send MIDI => LoopBe1 => DMX_Controler.py ( or .exe if compiled) => ENNTEC 512 USB (open DMX) => DMX lights 
+
+
+
+need
+
+* Audio interface to send midi notes. 
+	We succed with "Studio One" and "Reaper" on Windows 
+
+* LoopBe1 to collect MIDI from your audio interface and send to sotware
+	https://www.nerds.de/en/download.html
+
+* Open DMX interface ENNTEC 512 USB, to send DMX signal to lights 
+	https://www.enttec.co.uk/fr/product/dmx-usb-interfaces/open-dmx-usb/
+ 	Drivers FTDI https://ftdichip.com/drivers/vcp-drivers/
+
+* Python 3.12 
+
+
+
+
+Compilation from py file:
+	put `dmx_controller.py` and `BUILD.bat` in a folder, lauch `BUILD.bat` 
+
+
